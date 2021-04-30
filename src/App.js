@@ -1,25 +1,17 @@
 import React from "react";
 import "./App.css";
-import styled from "styled-components";
+import {BasicInput, AwesomeInput} from "./components/Inputs";
 
-const Button = styled.button`
-  color: white;
-  background: blue;
-  text-transform: uppercase;
-`;
 
-const SecondButton = styled.button`
-  color: white;
-  background: red;
-  text-transform: uppercase;
-`;
 
 function App() {
   return (
+
     <div>
-      Hello from App
-      <Button>click me</Button>
-      <SecondButton>dont click me</SecondButton>
+      <BasicInput/>
+      <AwesomeInput />
+      <AwesomeInput type="email" placeholder="enter email"/>
+
     </div>
   );
 }

@@ -1,9 +1,11 @@
 :root{
   --primaryColor: brown;
+  --textColor: white;
 }
 
-body {
-  margin: 2rem;
+*{
+  margin: 0;
+  
 }
 
 .global {
