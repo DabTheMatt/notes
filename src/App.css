@@ -1,15 +1,17 @@
 :root{
   --primaryColor: brown;
   --textColor: white;
+  --pdg: 0px;
+  --mrg: -2.5px
 }
 
 *{
   margin: 0;
- 
+  box-sizing: border-box;
 }
 
 body {
-  background: black;
+  
   font-size: 1.5rem;
 }
 
@@ -26,4 +28,42 @@ body {
 .second {
   text-transform: uppercase;
   color: var(--primaryColor);
+}
+
+.gridWrapper {
+  max-width: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  
+  min-width: 40vw;
+  align-content: flex-start;
+  align-items:stretch;
+}
+
+.red {
+  background: #dc2f02;
+  border: 5px solid black;
+  padding: var(--pdg);
+  margin: var(--mrg);
+}
+
+.yellow {
+  background: #ffba08;
+  border: 5px solid black;
+  padding: var(--pdg);
+  margin: var(--mrg);
+}
+
+.blue{
+  background: #023e8a;
+  border: 5px solid black;
+  padding: var(--pdg);
+  margin: var(--mrg);
+}
+
+.white{
+  background: white;
+  border: 5px solid black;
+  padding: var(--pdg);
+  margin: var(--mrg);
 }
