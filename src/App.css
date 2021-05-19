@@ -2,7 +2,7 @@
   --primaryColor: brown;
   --textColor: white;
   --pdg: 0px;
-  --mrg: -2.5px
+  --mrg: 0px
 }
 
 *{
@@ -10,8 +10,12 @@
   box-sizing: border-box;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
 body {
-  
+  font-family: 'Great Vibes', cursive;
   font-size: 1.5rem;
 }
 
@@ -31,11 +35,11 @@ body {
 }
 
 .gridWrapper {
-  max-width: 80vh;
+  
   display: flex;
   flex-wrap: wrap;
   
-  min-width: 40vw;
+  
   align-content: flex-start;
   align-items:stretch;
 }
@@ -66,4 +70,47 @@ body {
   border: 5px solid black;
   padding: var(--pdg);
   margin: var(--mrg);
+}
+
+.title {
+  text-align: center;
+  margin: 5rem;
+  font-weight: 100;
+  font-size: 5rem;
+}
+
+.sizeDiv {
+  margin: 0 auto;
+  height: 600px;
+  width: 600px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.paint {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonWrapper {
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  padding: 0.5rem;
+  margin: 1rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
