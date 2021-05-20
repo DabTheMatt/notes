@@ -11,12 +11,12 @@
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@100;200;300&display=swap');
 
 body {
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
+  background: rgb(240,238,228);
 }
 
 .global {
@@ -75,6 +75,7 @@ body {
 .title {
   text-align: center;
   margin: 2rem;
+  margin-top: 4rem;
   font-weight: 100;
   font-size: 5rem;
 }
@@ -112,8 +113,11 @@ button {
   border: none;
   padding: 0.5rem;
   margin: 1rem;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   cursor: pointer;
+  background: transparent;
 }
 
 .felx {
@@ -122,3 +126,22 @@ button {
   justify-content: center;
   flex-direction: column;
 }
+
+.frame {
+  height: 540px;
+  width: 540px;
+  border: 20px solid white;
+  position: relative;
+  top: -20px;
+  left: -20px;
+}
+
+.blackFrame {
+  height: 545px;
+  width: 545px;
+  border: 12px solid black;
+  position: relative;
+  top: -23px;
+  left: -23px;
+}
+

@@ -35,7 +35,7 @@ class Wall extends Component {
 
 export const WallWrapper = styled.div`
 height: auto;
-background: #fbfefb;
+background: rgb(240,238,228);
 display: flex;
 align-items: center;
 justify-content: center;

@@ -148,11 +148,13 @@ class Frame2 extends Component {
 
   render() {
     return (
-      <div className="flex">
-        <button style={{marginLeft:"45%"}} onClick={this.handleClick}>Paint</button>
+      <div >
+        <button style={{marginLeft:"45%"}} onClick={this.handleClick}><h2>Paint</h2></button>
+        
         <div className="sizeDiv">
           <FrameWrapper>
-          
+              <div className="">
+          <div className="frame">
             {this.state.on ? (
               <div className="row">
                 <div className="gridWrapper">
@@ -196,6 +198,8 @@ class Frame2 extends Component {
             ) : (
               <div></div>
             )}
+            </div>
+            </div>
           </FrameWrapper>
         </div>
       </div>
@@ -208,7 +212,7 @@ export const FrameWrapper = styled.div`
   width: 100%;
   background: #eaeaea;
 
-  box-shadow: 8px 8px 40px rgba(0, 0, 0, 0.5);
+  box-shadow: 8px 8px 40px rgba(0, 0, 0, 0.2);
   color: white;
 `;
 
