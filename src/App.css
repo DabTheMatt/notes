@@ -74,15 +74,15 @@ body {
 
 .title {
   text-align: center;
-  margin: 5rem;
+  margin: 2rem;
   font-weight: 100;
   font-size: 5rem;
 }
 
 .sizeDiv {
   margin: 0 auto;
-  height: 600px;
-  width: 600px;
+  height: 500px;
+  width: 500px;
 }
 
 .column {
@@ -112,5 +112,13 @@ button {
   border: none;
   padding: 0.5rem;
   margin: 1rem;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+}
+
+.felx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
